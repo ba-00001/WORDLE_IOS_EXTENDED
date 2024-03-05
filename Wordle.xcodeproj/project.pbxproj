@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8CBA23FD2B8E37FE00B0310C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CBA23FC2B8E37FE00B0310C /* LaunchScreen.storyboard */; };
-		8CDB98C92B9705C90011641E /* WordTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDB98C82B9705C90011641E /* WordTheme.swift */; };
+		9915CAB329C7DD1C00EF0359 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9915CAB229C7DD1C00EF0359 /* SettingsViewController.swift */; };
+		9915CAB529C7E25400EF0359 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9915CAB429C7E25400EF0359 /* SettingsManager.swift */; };
 		991CEC0629999E2A0095F025 /* KeyboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991CEC0529999E2A0095F025 /* KeyboardCell.swift */; };
 		991CEC0829999ECD0095F025 /* KeyboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991CEC0729999ECD0095F025 /* KeyboardController.swift */; };
 		9953C05529A40AC700247C5B /* BoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9953C05429A40AC700247C5B /* BoardController.swift */; };
@@ -47,8 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8CBA23FC2B8E37FE00B0310C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8CDB98C82B9705C90011641E /* WordTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordTheme.swift; sourceTree = "<group>"; };
+		9915CAB229C7DD1C00EF0359 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		9915CAB429C7E25400EF0359 /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
 		991CEC0529999E2A0095F025 /* KeyboardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardCell.swift; sourceTree = "<group>"; };
 		991CEC0729999ECD0095F025 /* KeyboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardController.swift; sourceTree = "<group>"; };
 		9953C05429A40AC700247C5B /* BoardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardController.swift; sourceTree = "<group>"; };
@@ -121,15 +121,8 @@
 		996B84A6299990A900133037 /* Wordle */ = {
 			isa = PBXGroup;
 			children = (
-				996B84AB299990A900133037 /* ViewController.swift */,
-				8CDB98C82B9705C90011641E /* WordTheme.swift */,
-				99CF2AA729B0168700B4973F /* Constants.swift */,
-				996B84D7299994A300133037 /* LetterCell.swift */,
 				9953C05429A40AC700247C5B /* BoardController.swift */,
-				9953C05629A422C200247C5B /* WordGenerator.swift */,
-				991CEC0529999E2A0095F025 /* KeyboardCell.swift */,
-				991CEC0729999ECD0095F025 /* KeyboardController.swift */,
-				8CBA23FC2B8E37FE00B0310C /* LaunchScreen.storyboard */,
+				996B84AB299990A900133037 /* ViewController.swift */,
 				996B84B5299990AA00133037 /* Info.plist */,
 				99CF2AA429B0156100B4973F /* DO_NOT_MODIFY */,
 			);
@@ -159,6 +152,13 @@
 				996B84B2299990AA00133037 /* LaunchScreen.storyboard */,
 				996B84B0299990AA00133037 /* Assets.xcassets */,
 				996B84AD299990A900133037 /* Main.storyboard */,
+				99CF2AA729B0168700B4973F /* Constants.swift */,
+				996B84D7299994A300133037 /* LetterCell.swift */,
+				9915CAB429C7E25400EF0359 /* SettingsManager.swift */,
+				9953C05629A422C200247C5B /* WordGenerator.swift */,
+				991CEC0529999E2A0095F025 /* KeyboardCell.swift */,
+				991CEC0729999ECD0095F025 /* KeyboardController.swift */,
+				9915CAB229C7DD1C00EF0359 /* SettingsViewController.swift */,
 				996B84A7299990A900133037 /* AppDelegate.swift */,
 				99CF2AA929B0172800B4973F /* BoardController+Extensions.swift */,
 				99CF2AAB29B0198D00B4973F /* ViewController+Extensions.swift */,
@@ -273,7 +273,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				996B84B4299990AA00133037 /* LaunchScreen.storyboard in Resources */,
-				8CBA23FD2B8E37FE00B0310C /* LaunchScreen.storyboard in Resources */,
 				996B84B1299990AA00133037 /* Assets.xcassets in Resources */,
 				996B84AF299990A900133037 /* Main.storyboard in Resources */,
 			);
@@ -307,10 +306,11 @@
 				99CF2AAC29B0198D00B4973F /* ViewController+Extensions.swift in Sources */,
 				9953C05529A40AC700247C5B /* BoardController.swift in Sources */,
 				996B84A8299990A900133037 /* AppDelegate.swift in Sources */,
-				8CDB98C92B9705C90011641E /* WordTheme.swift in Sources */,
 				99CF2AA829B0168700B4973F /* Constants.swift in Sources */,
 				991CEC0629999E2A0095F025 /* KeyboardCell.swift in Sources */,
 				996B84AA299990A900133037 /* SceneDelegate.swift in Sources */,
+				9915CAB529C7E25400EF0359 /* SettingsManager.swift in Sources */,
+				9915CAB329C7DD1C00EF0359 /* SettingsViewController.swift in Sources */,
 				99CF2AA629B0157B00B4973F /* KeyboardController+Extensions.swift in Sources */,
 				996B84D8299994A300133037 /* LetterCell.swift in Sources */,
 			);
