@@ -1,4 +1,4 @@
-# Project 1 - *Wordle App*
+# Project 2 - *Wordle App*
 
 Submitted by: **Brian Bazurto**
 
@@ -11,7 +11,7 @@ Time spent: **4** hours spent in total
 The following **required** functionality is completed:
 
 - [x] User can change the number of letters per row (the length of the goal word)
-- [x] User can change the numbers of rows on the board (how many guesses allowed)
+- [x] User can change the number of rows on the board (how many guesses are allowed)
 - [x] User can select a new themed set to pull the goal word from
 - [x] User can select "alien wordle", causing the goal word to change after each guess
 
@@ -26,25 +26,25 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 
-![App GIF preview](https://github.com/ba-00001/WORDLE_IOS/blob/main/wordle_ios.gif){: width="200px" }
+![App GIF preview](https://github.com/ba-00001/WORDLE_IOS_EXTENDED/blob/main/wordle_ios_extended_gif.gif)
 
 ## App Preview
 
 <!-- Single row of images with names -->
 <div align="center">
   <figure>
-    <img src="https://github.com/ba-00001/WORDLE_IOS/blob/main/IOS_APP_ICON.png" width="200" alt="Image 1">
-    <figcaption>Wordle App Icon</figcaption>
+    <img src="https://github.com/ba-00001/WORDLE_IOS_EXTENDED/blob/main/Wordle_image%20pt2%20%20n1.png" width="200" alt="Image 1">
+    <figcaption>Wordle App New features</figcaption>
   </figure>
   
   <figure>
-    <img src="https://github.com/ba-00001/WORDLE_IOS/blob/main/WORDLE_LAUNCH_SCREEN.png" width="200" alt="Image 2">
-    <figcaption>App Launch screen</figcaption>
+    <img src="https://github.com/ba-00001/WORDLE_IOS_EXTENDED/blob/main/Wordle_image%20pt2%20%20n2.png" width="200" alt="Image 2">
+    <figcaption>Wordle App New features</figcaption>
   </figure>
   
   <figure>
-    <img src="https://github.com/ba-00001/WORDLE_IOS/blob/main/WORDLE_APP_PREVIEW.png" width="200" alt="Image 3">
-    <figcaption>App preview</figcaption>
+    <img src="https://github.com/ba-00001/WORDLE_IOS_EXTENDED/blob/main/Wordle_image%20pt2%20%20n3.png" width="200" alt="Image 3">
+    <figcaption>Wordle App New features</figcaption>
   </figure>
 </div>
 
